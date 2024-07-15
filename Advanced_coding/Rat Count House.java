@@ -22,6 +22,7 @@ import java.util.*;
 public class Main
 {
     static int count(int r,int[] arr,int n){
+	if (n == 0) return -1
         int count = 0;
         int sum = 0;
         for(int i=0;i<n;i++){
